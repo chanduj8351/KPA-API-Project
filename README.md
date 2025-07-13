@@ -1,5 +1,5 @@
 
-# 🚀 KPA API Assignment – FastAPI Project
+# 🚀 KPA Form Data API  – FastAPI Project
 
 This is a backend assignment project built using **FastAPI**, fulfilling the requirements mentioned in the `KPA_form_data.postman_collection.json` API specification.
 
@@ -28,20 +28,22 @@ It includes:
 ---
 
 ## 🚀 Project Structure
-kpa_api_project/
-   ├── main.py ← FastAPI entry point
-   ├── auth.py ← Handles JWT authentication & password hashing
-   ├── models.py ← SQLAlchemy ORM models
-   ├── database.py ← DB engine & session setup
-   ├── insert_user.py ← Script to insert test user with hashed password
-   ├── init_db.py ← Script to create database tables
-   ├── kpa_forms.db ← SQLite database file
-   ├── postman_collection.json ← Postman collection with testable API requests
-   ├── requirements.txt ← Python package dependencies
-   ├── .env ← Environment variables
-   ├── .env.exampe ← Sample .env file
-   ├── README.md ← Project readme (you're reading it 😉)
 
+KPA-API-PROJECT/
+
+   ├── main.py                  ← FastAPI entry point  
+   ├── auth.py                  ← Handles JWT authentication & password hashing  
+   ├── models.py                ← SQLAlchemy ORM models  
+   ├── database.py              ← DB engine & session setup  
+   ├── insert_user.py           ← Script to insert test user with hashed password  
+   ├── init_db.py               ← Script to create database tables  
+   ├── kpa_forms.db             ← SQLite database file  
+   ├── postman_collection.json  ← Postman collection with testable API requests  
+   ├── requirements.txt         ← Python package dependencies  
+   ├── .env                     ← Environment variables  
+   ├── .env.example             ← Sample .env file  
+   ├── README.md                ← Project readme (you're reading it 😉)
+   
 ---
 
 ## 🚀 Setup Instructions
@@ -55,7 +57,7 @@ kpa_api_project/
 
 1. **Clone or Extract the Project**
    ```bash
-   cd kpa_api_project
+   cd KPA-API-PROJECT
 ````
 
 2. **Create and Activate Virtual Environment**
@@ -179,26 +181,13 @@ It includes:
 ✅ `✔` Submit links to code + video to:
 📧 `contact@suvidhaen.com`
 
----
-
-## 🎥 Video Demo (Required)
-
-Make sure to record:
-
-1. Project setup and folder walkthrough
-2. Showing APIs in Swagger & Postman
-3. Mention tech stack and authentication flow
-
-> 📁 Rename your video: `yourname_kpa_assignment.mp4`
 
 ---
 
 ## 🙌 Author
 
-**Name:** \[Your Name]
-**Email:** \[[yourname@example.com](mailto:yourname@example.com)]
-**LinkedIn:** *(optional)*
-**GitHub:** *(optional)*
+**Name:** J Chandu
+**Email:** chanduj8351@gmail.com
 
 ---
 
